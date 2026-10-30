@@ -48,7 +48,6 @@ pip3 install yt-dlp opencv-python-headless numpy
 ## 配套 skill
 
 - [lapian-to-prompt](https://github.com/Minerva67/lapian-to-prompt)：把拉片报告转成能复刻这支片的生成提示词
-- [ref-film-to-storyboard-prompt](https://github.com/Minerva67/ref-film-to-storyboard-prompt)：参考片加上你的品牌资料，生成故事板和提示词
 
 ## 包含的文件
 
