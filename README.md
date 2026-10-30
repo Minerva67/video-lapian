@@ -2,6 +2,14 @@
 
 看到一支做得好的广告、宣传片或产品发布视频，想知道它每一秒在做什么、为什么这样做、自己能借鉴什么。把链接或文件交给这个 skill，它会下载视频、抽帧，然后写出一份逐秒拉片报告。
 
+## 示例
+
+拉的是 Figma 官方发布片《Introducing Figma Motion》（68 秒）。下图是报告开头和第三幕的逐秒镜头表，屏幕上的曲线数值、界面文字都放大单帧核对过。
+
+完整报告：[examples/figma-motion-report.md](examples/figma-motion-report.md)
+
+![示例截图](examples/preview.jpg)
+
 ## 适合什么时候用
 
 - 拉片，或逐秒分析一支广告
@@ -49,6 +57,7 @@ pip3 install yt-dlp opencv-python-headless numpy
 - `scripts/extract_frames.py`：按间隔抽帧，拼成带时间戳的拼图
 - `references/output-template.md`：报告结构
 - `references/method-notes.md`：抽帧间隔怎么选、不同类型视频的分析重点
+- `examples/`：示例产出和截图
 
 ## 安装
 
